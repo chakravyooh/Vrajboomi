@@ -4,10 +4,48 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>2BHK Fully Furnished Flat for Rent | Vrajbhoomi, Bhayli</title>
+<!-- SEO -->
+<title>2BHK Fully Furnished Flat for Rent | Vrajbhoomi, Bhayli | ₹15,000/month</title>
 
-<meta name="description" content="Fully Furnished 2BHK Flat for Rent in Vrajbhoomi, Bhayli. ₹15,000/month. Dedicated parking, modular kitchen, furnished bedrooms and excellent connectivity.">
+<meta name="description"
+      content="Fully Furnished 2BHK Flat for Rent in Vrajbhoomi Society, Bhayli. ₹15,000/month. Dedicated parking, modular kitchen, AC, refrigerator, washing machine and more.">
 
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+
+<meta property="og:title"
+      content="🏠 Fully Furnished 2BHK in Bhayli | ₹15,000/month">
+
+<meta property="og:description"
+      content="Vrajbhoomi Society • 3rd Floor • Dedicated Parking • Fully Furnished • Ready to Move">
+
+<meta property="og:url"
+      content="https://chakravyooh.github.io/Vrajboomi/">
+
+<meta property="og:image"
+      content="https://github.com/chakravyooh/Vrajboomi/tree/main/asset/og/img1.jpeg">
+
+<meta property="og:image:width"
+      content="1200">
+
+<meta property="og:image:height"
+      content="630">
+
+<meta property="og:site_name"
+      content="Vrajbhoomi Rental Property">
+
+<!-- Twitter / X -->
+<meta name="twitter:card"
+      content="summary_large_image">
+
+<meta name="twitter:title"
+      content="🏠 Fully Furnished 2BHK in Bhayli | ₹15,000/month">
+
+<meta name="twitter:description"
+      content="Prime location • Dedicated parking • Fully furnished • Ready to move">
+
+<meta name="twitter:image"
+      content="https://github.com/chakravyooh/Vrajboomi/tree/main/asset/og/img1.jpeg">
 <style>
 :root{
     --primary:#0f4c81;
@@ -198,200 +236,390 @@ footer{
         font-size:1.7rem;
     }
 }
+
+.hero{
+    min-height:100vh;
+    background:url('assets/images/img1.jpg');
+    background-size:cover;
+    background-position:center;
+    position:relative;
+}
+
+.hero-overlay{
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,0.55);
+}
+
+.hero-content{
+    position:relative;
+    z-index:2;
+    color:white;
+    text-align:center;
+    padding:120px 20px;
+}
+
+.price{
+    font-size:48px;
+    font-weight:bold;
+    margin:20px 0;
+}
+
+.hero-badges{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:10px;
+}
+
+.hero-badges span{
+    background:rgba(255,255,255,0.2);
+    padding:10px 18px;
+    border-radius:50px;
+}
+
+.carousel-container{
+    position:relative;
+    max-width:1000px;
+    margin:auto;
+}
+
+.carousel-container img{
+    width:100%;
+    border-radius:20px;
+}
+
+.nav{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    border:none;
+    padding:15px;
+    cursor:pointer;
+    font-size:28px;
+}
+
+.prev{left:10px;}
+.next{right:10px;}
+
+.card-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:16px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+.floor-plan img,
+video{
+    width:100%;
+    border-radius:20px;
+}
+
+.amenities{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+}
+
+.amenities span{
+    background:#eef4ff;
+    padding:12px 18px;
+    border-radius:30px;
+}
+
+.contact{
+    background:#0f4c81;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.contact a{
+    color:white;
+    font-size:28px;
+    text-decoration:none;
+}
+
+.floating-whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background:#25D366;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+    text-decoration:none;
+    box-shadow:0 8px 20px rgba(0,0,0,.2);
+}
 </style>
 </head>
 
 <body>
 
+<!-- HERO SECTION -->
 <section class="hero">
-    <div class="container">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
 
         <h1>🏠 Fully Furnished 2BHK Flat for Rent</h1>
 
-        <p>Vrajbhoomi Society, Bhayli • 3rd Floor • Dedicated Car Parking</p>
+        <h2>Vrajbhoomi Society, Bhayli</h2>
 
-        <div class="price">₹15,000 / Month</div>
-
-        <div class="badges">
-            <div class="badge">Fully Furnished</div>
-            <div class="badge">2 Bedrooms</div>
-            <div class="badge">Parking Included</div>
-            <div class="badge">Prime Location</div>
+        <div class="price">
+            ₹15,000 / Month
         </div>
 
-        <div class="actions">
-            <a href="tel:+919016299006" class="btn btn-primary">
+        <div class="hero-badges">
+            <span>3rd Floor</span>
+            <span>Dedicated Parking</span>
+            <span>Fully Furnished</span>
+            <span>Ready To Move</span>
+        </div>
+
+        <div class="hero-buttons">
+            <a href="tel:+919016299006" class="btn-primary">
                 📞 Call Now
             </a>
 
-            <a href="https://wa.me/919016299006"
-               class="btn btn-whatsapp"
-               target="_blank">
-               WhatsApp
+            <a href="https://wa.me/919016299006" class="btn-whatsapp">
+                WhatsApp
             </a>
         </div>
 
     </div>
+
 </section>
 
+<!-- PHOTO CAROUSEL -->
 <section class="section">
-    <div class="container">
 
-        <h2 class="section-title">Property Highlights</h2>
+    <h2>Photo Gallery</h2>
 
-        <div class="grid features">
+    <div class="carousel-container">
 
-            <div class="feature-card">
-                <h3>🛋 Living & Dining</h3>
-                <ul>
-                    <li>5 Seater Sofa Set</li>
-                    <li>Center Table</li>
-                    <li>4 Seater Dining Table</li>
-                    <li>Shoe Storage</li>
-                    <li>Lights & Fans</li>
-                </ul>
-            </div>
+        <button class="nav prev" onclick="previousSlide()">❮</button>
 
-            <div class="feature-card">
-                <h3>🍳 Kitchen</h3>
-                <ul>
-                    <li>Modular Kitchen</li>
-                    <li>Overhead Storage</li>
-                    <li>350L Refrigerator</li>
-                    <li>Washing Machine</li>
-                    <li>RO Water Purifier</li>
-                    <li>Wooden Temple</li>
-                </ul>
-            </div>
+        <img
+            id="carouselImage"
+            src="asset/images/img1.jpg"
+            alt="Property Image">
 
-            <div class="feature-card">
-                <h3>🛏 Master Bedroom</h3>
-                <ul>
-                    <li>Bed + Mattress</li>
-                    <li>Under-bed Storage</li>
-                    <li>Wardrobe</li>
-                    <li>Dressing Table</li>
-                    <li>Lights & Fans</li>
-                </ul>
-            </div>
-
-            <div class="feature-card">
-                <h3>👦 Kids Bedroom</h3>
-                <ul>
-                    <li>Bed + Mattress</li>
-                    <li>Wardrobe</li>
-                    <li>Study Table & Chair</li>
-                    <li>Overhead Storage</li>
-                    <li>Air Conditioner</li>
-                </ul>
-            </div>
-
-        </div>
+        <button class="nav next" onclick="nextSlide()">❯</button>
 
     </div>
+
 </section>
 
+<!-- PROPERTY DETAILS -->
 <section class="section">
-    <div class="container">
 
-        <h2 class="section-title">📸 Photos & Videos</h2>
+    <h2>Property Highlights</h2>
 
-        <div class="card" style="text-align:center;">
-            <p style="margin-bottom:20px;">
-                Explore the complete property gallery and video walkthrough.
-            </p>
-
-            <a class="btn btn-primary"
-               href="https://drive.google.com/drive/folders/1GuaW-s-eYPxeylLqpXpIWwtqnS7ELKGO?usp=drive_link"
-               target="_blank">
-               View Photos
-            </a>
-
-            <a class="btn btn-whatsapp"
-               href="https://drive.google.com/file/d/1oPj7cqw1RoEJk2wE-8wBdZ3WOOFXWDGj/view?usp=drive_link"
-               target="_blank">
-               Watch Video Tour
-            </a>
-        </div>
-
-    </div>
-</section>
-
-<section class="section">
-    <div class="container">
-
-        <h2 class="section-title">📐 Floor Plan</h2>
-
-        <div class="card" style="text-align:center;">
-            <iframe src="https://drive.google.com/file/d/1Pq5XwCwMokU_5Y1FQJHnbaFicSq2Ygl-/preview" width="400" height="480"></iframe>
-        </div>
-
-    </div>
-</section>
-
-<section class="section">
-    <div class="container">
-
-        <h2 class="section-title">Rent Details</h2>
-
-        <div class="details-grid">
-
-            <div class="detail-box">
-                <h3>💰 Rent</h3>
-                <p>₹15,000 per month</p>
-            </div>
-
-            <div class="detail-box">
-                <h3>🔐 Deposit</h3>
-                <p>₹30,000 + 1 Month Advance Rent</p>
-            </div>
-
-            <div class="detail-box">
-                <h3>📋 Additional Charges</h3>
-                <p>Maintenance & VMC Tax Extra</p>
-            </div>
-
-        </div>
-
-    </div>
-</section>
-
-<section class="section">
-    <div class="container">
-
-        <h2 class="section-title">📍 Nearby Amenities</h2>
+    <div class="card-grid">
 
         <div class="card">
+            <h3>🛋 Living Room</h3>
             <ul>
-                <li>Banks within 1 km</li>
-                <li>Schools within 1 km</li>
-                <li>Hospitals within 1 km</li>
-                <li>D-Mart & Supermarkets nearby</li>
-                <li>Restaurants & Cafes nearby</li>
-                <li>Excellent connectivity</li>
+                <li>5 Seater Sofa Set</li>
+                <li>Center Table</li>
+                <li>Dining Table</li>
+                <li>Shoe Storage</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>🍳 Kitchen</h3>
+            <ul>
+                <li>Modular Kitchen</li>
+                <li>350L Refrigerator</li>
+                <li>Washing Machine</li>
+                <li>RO Water Purifier</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>🛏 Master Bedroom</h3>
+            <ul>
+                <li>Bed + Mattress</li>
+                <li>Wardrobe</li>
+                <li>Dressing Table</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>👦 Kids Room</h3>
+            <ul>
+                <li>AC</li>
+                <li>Study Table</li>
+                <li>Storage</li>
+                <li>Wardrobe</li>
             </ul>
         </div>
 
     </div>
+
 </section>
 
-<section class="cta">
+<!-- FLOOR PLAN -->
+<section class="section">
 
-    <h2>Interested in this Property?</h2>
+    <h2>Floor Plan</h2>
 
-    <p style="margin-bottom:20px;">
-        Schedule a visit today.
-    </p>
+    <div class="floor-plan">
 
-    <a href="tel:+919016299006" class="btn btn-primary">
-        Call 9016299006
+        <img
+            src="asset/floor-plan/img-fp.jpg"
+            alt="Floor Plan">
+
+    </div>
+
+</section>
+
+<!-- VIDEO TOUR -->
+<section class="section">
+
+    <h2>Video Walkthrough</h2>
+
+    <video controls playsinline>
+
+        <source
+            src="asset/videos/vid1.mp4"
+            type="video/mp4">
+
+    </video>
+
+</section>
+
+<!-- RENT DETAILS -->
+<section class="section">
+
+    <h2>Rent Details</h2>
+
+    <div class="rent-box">
+
+        <div>Monthly Rent: <strong>₹15,000</strong></div>
+
+        <div>Deposit: <strong>₹30,000 + 1 Month Advance</strong></div>
+
+        <div>Maintenance & VMC Tax: <strong>Extra</strong></div>
+
+    </div>
+
+</section>
+
+<!-- LOCATION -->
+<section class="section">
+
+    <h2>Nearby Amenities</h2>
+
+    <div class="amenities">
+
+        <span>🏦 Banks</span>
+        <span>🏫 Schools</span>
+        <span>🏥 Hospitals</span>
+        <span>🛒 D-Mart</span>
+        <span>🍴 Restaurants</span>
+
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+<section class="contact">
+
+    <h2>Schedule a Visit</h2>
+
+    <p>Call or WhatsApp for more details</p>
+
+    <a href="tel:+919016299006">
+        📞 9016299006
     </a>
 
 </section>
 
-<footer>
-    Vrajbhoomi Society • Bhayli • Vadodara
-</footer>
+<!-- FLOATING WHATSAPP -->
+<a
+class="floating-whatsapp"
+href="https://wa.me/919016299006?text=Hello%20I%20am%20interested%20in%20the%202BHK%20flat%20at%20Vrajbhoomi%20Society."
+target="_blank">
+
+💬
+
+</a>
+
+<script>
+
+const images = [
+    "assets/images/img1.jpg",
+    "assets/images/img2.jpg",
+    "assets/images/img3.jpg",
+    "assets/images/img4.jpg",
+    "assets/images/img5.jpg",
+    "assets/images/img6.jpg",
+    "assets/images/img7.jpg",
+    "assets/images/img8.jpg",
+    "assets/images/img9.jpg",
+    "assets/images/img10.jpg",
+    "assets/images/img11.jpg",
+    "assets/images/img12.jpg",
+    "assets/images/img13.jpg",
+    "assets/images/img14.jpg",
+    "assets/images/img15.jpg",
+    "assets/images/img16.jpg",
+    "assets/images/img17.jpg",
+    "assets/images/img18.jpg",
+    "assets/images/img19.jpg",
+    "assets/images/img20.jpg",
+    "assets/images/img21.jpg",
+    "assets/images/img22.jpg",
+    "assets/images/img23.jpg",
+    "assets/images/img24.jpg",
+    "assets/images/img25.jpg",
+    "assets/images/img26.jpg",
+    "assets/images/img27.jpg",
+    "assets/images/img28.jpg",
+    "assets/images/img29.jpg"
+];
+
+let currentIndex = 0;
+
+function updateCarousel() {
+    document.getElementById("carouselImage").src =
+        images[currentIndex];
+}
+
+function nextSlide() {
+    currentIndex =
+        (currentIndex + 1) % images.length;
+
+    updateCarousel();
+}
+
+function previousSlide() {
+    currentIndex =
+        (currentIndex - 1 + images.length) %
+        images.length;
+
+    updateCarousel();
+}
+
+setInterval(nextSlide, 4000);
+
+</script>
 
 </body>
 </html>
